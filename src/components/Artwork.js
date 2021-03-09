@@ -25,9 +25,8 @@ const Artwork = () => {
                 const {id,title,img,desc,price} = x;
                 return (
                     <section key={id} className="artworkSection">
-                        <h2>{img}</h2>
                         <div className="artworkGrid">                            
-                            <img src={img} alt={title} />
+                            <img src={img} alt={img} />
                             <div className="artworkInfo">
                                 <h2>{img}</h2>
                                 <h4>{title}</h4>
