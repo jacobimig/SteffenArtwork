@@ -25,12 +25,12 @@ const Artwork = () => {
                 const {id,title,img,desc,price} = x;
                 return (
                     <section key={id} className="artworkSection">
-                        <div className="artworkGrid">
+                        <div className="artworkGrid">                            
                             <img src={img} alt={title} />
                             <div className="artworkInfo">
+                                <h2>{img}</h2>
                                 <h4>{title}</h4>
                                 <p>${price}</p>
-                                <p>{img}</p>
                                 <hr></hr>
                                 <p>{`${desc.slice(0,1).toUpperCase()}${desc.slice(1)}`}</p>
                                 <Link to={`/singleartwork/${id}`}>Learn more</Link>

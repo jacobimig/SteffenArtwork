@@ -2,7 +2,6 @@ const data = [
   {
     id: 1,
     title: 'flees',
-    title: 'hoppy',
     category: 'landscape',
     price: 255.99,
     img: '../src/images/landscape1.jpg',
